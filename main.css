@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'C-Regular';
+    src: url('ClarikaGrotesque-Regular.woff2') format('woff2'),
+        url('ClarikaGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'C-Bold';
+    src: url('ClarikaGrotesque-Bold.woff2') format('woff2'),
+        url('ClarikaGrotesque-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'C-Medium';
+    src: url('ClarikaGrotesque-Medium.woff2') format('woff2'),
+        url('ClarikaGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'C-Light';
+    src: url('ClarikaGrotesque-Light.woff2') format('woff2'),
+        url('ClarikaGrotesque-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.LH0 { line-height: 0 !important; }
+
+.T2, .T3, .T4, .VB { display: none; }
+
+.row { display: flex !important; }
+
+.S2B3, #CONS { display: none; }
+
+button { font-weight: bold !important; font-size: 1.4rem !important; }
+
+#BTNYES {
+  background-color: #24d5e9 !important;
+}
+
+
+#BTNYES, #BTNNO, #BTNADD, .VB { /*font-size: 1.1rem !important;*/ font-weight: normal !important; }
+
+.SCARED { border: 1px solid rgba(0,0,0,0.5); border-radius: 0.5rem; padding: 0.5rem; }
+
+.IR { display: inline-block; height: 30px;}
+
+input, button, select {
+  text-align: center !important;
+  text-align-last: center !important;
+  background-color: #cecece !important;
+  color: #424345 !important;
+  border: 1px solid rgba(243,244,246,0.5) !important;
+  border-radius: 1rem !important;
+}
+
+#PBAR { width: 100% !important; }
+
+.img-avatar {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 100%;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+.DIB { display: inline-block !important; }
+
+.freerobux, .freerobux777 {font-family: "C-Light" !important; display: none;}
+
+.freerobux strong, .freerobux777 strong { font-family: "C-Regular" !important; }
+
+.img-robux { max-height: 30px; }
+
+button { background-color: rgb(225, 34, 26) !important; color: white !important; }
+
+red, .reddd { color: rgb(225, 34, 26) !important; font-weight: bold !important; }
+
+.P2, .P3, .VB { display: none; }
+
+.w-90 { width: 90% !important; }
+
+.w-65 { width: 65% !important; }
+
+hr { border-color: #424345 !important; }
+
+.robdescription { color: #575757 !important; font-style: italic; }
+
+input::placeholder { color: rgba(0,0,0,0.75) !important; }
+
+.device-content {
+  background: #f3f4f6;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+strong { font-family: "C-Medium" !important; }
+
+body {
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to top, #000, #434343);
+  background: linear-gradient(to top, #000, #434343);
+  font-family: "C-Regular" !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #424345;
+}
+
+.rob-bot { bottom: 0; border-radius: 0 0 40px 40px; width: 100% }
+
+.rob-bot {
+    z-index: 0;
+    position: absolute;
+}
+
+.FLICK {
+  color: #353535 !important;
+  border-radius: 40px;
+  background: #f8f8f8;
+  width: 100%;
+  height: 100%;
+  transition-duration: 1.5s;
+ }
+
+ .XDDD { display: none !important; }
+
+.FLICK2 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.robavatar, .robwearing { border-radius: 100%; }
+
+small { font-size: 75% !important; }
+
+span, strong, small { display: contents !important; }
+
+ @media (max-width: 575.98px) {
+
+   .welcome {
+     display: none;
+   }
+
+
+   .rob-bot { border-radius: 0; }
+
+   .FLICK {
+     border-radius: 0;
+     width: 100%;
+     height: 100%;
+    }
+
+    .device-iphone-x .device-content {
+      border-radius: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+   .device-iphone-x { width: 100% !important; height: 100vh !important; }
+
+   .device-iphone-x .device-header, .device-iphone-x .device-btns, .device-iphone-x .device-power, .device-sensors, .device-stripe { display: none; }
+
+   .device-iphone-x .device-frame {
+     background: none !important;
+     border-radius: 0;
+     box-shadow: none;
+     height: 100% !important;
+     padding: 0;
+     width: 100% !important;
+   }
+
+ }
